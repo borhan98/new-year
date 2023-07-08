@@ -1,0 +1,164 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* -------------------
+    Common style Start
+--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+section {
+    max-width: 1140px;
+    margin: 130px auto 0;
+}
+:root {
+    --font-dark: #151414;
+    --font-dark-2: #444343;
+    --font-light: #F8F8F8;
+
+}
+/* -------------------
+    Common style End
+--------------------*/
+/* -------------------
+    Header Section Start
+--------------------*/
+#header .banner {
+    height: 810px;
+    background: url("../images/banner/banner2.png");
+    background-size: cover;
+}
+.banner .bnr_text {
+    max-width: 1140px;
+    height: 100%;
+    text-align: right;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.bnr_text .bnr_title {
+    color: var(--font-dark);
+    font-size: 65px;
+    font-weight: 700;
+    max-width: 525px;
+}
+.bnr_text .bnr_describe {
+    color: var(--font-dark-2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 32px;
+    max-width: 500px;
+}
+.bnr_text .contact_btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #F15B22;
+    text-transform: capitalize;
+}
+/* -------------------
+    Header Section End
+--------------------*/
+/* -------------------
+    Main Section Start
+--------------------*/
+/* Previous Year */
+#previous_yr {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 100px;
+}
+#previous_yr .my_photo img {
+    max-width: 525px;
+}
+#previous_yr .text {
+    max-width: 416px;
+}
+#previous_yr .text .title {
+    max-width: 288px;
+    color: var(--font-dark);
+    font-size: 40px;
+    font-weight: 700;
+}
+#previous_yr .text .descibe {
+    color: var(--font-dark-2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 16px;
+}
+#previous_yr .text ul li {
+    margin-bottom: 10px;
+}
+#previous_yr .text ul li i {
+    color: #16D887;
+    margin-right: 10px;
+}
+/* My Plans */
+#my_plans .sec_title {
+    text-align: center;
+     color:var(--font-dark);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.all_plans {
+    display: flex;
+    justify-content: space-between;
+}
+.all_plans .single_plan {
+    text-align: center;
+}
+.single_plan .logo img {
+    height: 93px;
+    width: 93px;
+    margin-bottom: 24px;
+}
+.single_plan .plan_title {
+    color: var(--font-dark);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.single_plan .plan_describe {
+    color: #727272;
+font-size: 25px;
+font-weight: 500;
+}
+/* -------------------
+    Main Section End
+--------------------*/
+
+
+
+
+
+
+
+
+/* -------------------
+    Common style Start
+--------------------*//* -------------------
+    Common style Start
+--------------------*//* -------------------
+    Common style Start
+--------------------*//* -------------------
+    Common style Start
+--------------------*//* -------------------
+    Common style Start
+--------------------*/
