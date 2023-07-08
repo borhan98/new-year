@@ -20,6 +20,15 @@ section {
     max-width: 1140px;
     margin: 130px auto 0;
 }
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #F15B22;
+    text-transform: capitalize;
+}
 :root {
     --font-dark: #151414;
     --font-dark-2: #444343;
@@ -60,15 +69,6 @@ section {
     line-height: 26px;
     margin: 24px 0 32px;
     max-width: 500px;
-}
-.bnr_text .contact_btn {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 20px 25px;
-    border-radius: 5px;
-    background: #F15B22;
-    text-transform: capitalize;
 }
 /* -------------------
     Header Section End
@@ -137,28 +137,114 @@ section {
 }
 .single_plan .plan_describe {
     color: #727272;
-font-size: 25px;
-font-weight: 500;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* Mindset */
+#mindset {
+    padding: 60px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url("../images/watch.png");
+    border-radius: 8px;
+    margin-bottom: 40px;
+    height: fit-content;
+}
+#mindset .sec_title {
+    color: var(--font-light);
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 460px;
+    margin-bottom: 44px;
+}
+#mindset > a {
+    background: var(--font-light);
+    color: #F15B22;
 }
 /* -------------------
     Main Section End
 --------------------*/
-
-
-
-
-
-
-
-
 /* -------------------
-    Common style Start
---------------------*//* -------------------
-    Common style Start
---------------------*//* -------------------
-    Common style Start
---------------------*//* -------------------
-    Common style Start
---------------------*//* -------------------
-    Common style Start
+    Footer Section Start
+--------------------*/
+#footer {
+    background: var(--font-dark);
+    padding: 130px 0;
+}
+.foot_container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.foot_container .foot_clm {
+    max-width: 500px;
+    min-width: 325px;
+}
+.foot_clm .foot_title {
+    color: var(--font-light);
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.foot_clm .descrip {
+    color: var(--font-light);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 24px;
+}
+.foot_clm .num_mail a {
+    display: block;
+    color: var(--font-light);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+.foot_clm .social_link a {
+    display: inline-block;
+    padding: 12px;
+    margin-right: 16px;
+    border-radius: 50%;
+    background: var(--font-light);
+}
+.foot_clm .social_link a:nth-child(1) {
+    color: #006AFF;
+}
+.foot_clm .social_link a:nth-child(2) {
+    color: #1DA1F2;
+}
+.foot_clm .social_link a:nth-child(3) {
+    color: #FF0000;
+}
+.foot_clm .subscribe {
+    color: var(--font-light);
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.foot_clm .email {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--font-light);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--font-dark-2);
+    margin: 24px 0 16px;
+    background: transparent;
+}
+.foot_clm .email:focus {
+    outline: none;
+}
+.foot_clm .btn {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+    border: none;
+    background: var(--font-light);
+}
+/* -------------------
+    Footer Section End
 --------------------*/
